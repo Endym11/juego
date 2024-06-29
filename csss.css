@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#contenedor-elecciones { background-image: url(./F.jpeg); background-position: center; background-size: cover;
+    height: 50vh;
+    display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 20px;
+}
+
+button{
+    width: 100px; height: 30%; background-size: cover;
+}
+
+.eleccion {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contenedor-resultados {
+    margin-top: 20px;
+}
+
+#contenedor-marcador {
+    background-color: rgb(45, 58, 248);
+    height: 30vh;
+}
+
+.princial{ background-color: rgb(45, 58, 248);}
+
+.piedra{background-image: url(./P\ \(1\).jpeg); }
+
+.papel{background-image: url(./PA.jpeg);}
+
+.tijera{background-image: url(./T.jpeg);}
